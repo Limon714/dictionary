@@ -11,7 +11,10 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4D59FB;
+  background: url("heaven.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 ::selection{
   color: #fff;
@@ -26,8 +29,9 @@ body{
 }
 .wrapper header{
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 700;
   text-align: center;
+   color: #080e64;
 }
 .wrapper .search{
   position: relative;
